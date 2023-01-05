@@ -1,0 +1,95 @@
+.exchange{
+    width: 100%;
+    height: 100%;
+    
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+.exchange__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(180deg, rgba(120, 183, 145, 0.38) 18.75%, rgba(187, 217, 199, 0) 100%);
+
+
+}
+.logo{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+}
+.exchange__money{
+    position: relative;
+}
+.exchange__currency{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding-top: 36px;
+}
+.exchange__buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 0;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 116px;
+    height: 50px;
+    padding: 0 10px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    list-style: none;
+    box-sizing: border-box;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+input{
+    width: 355px;
+    height: 64px;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+   font-size: 32px;
+   font-weight: 400;
+   border: 2px solid #000000;
+
+    color: #0D382E;
+}
+.exchange__someCurrency{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    color:#000000;
+}
+.exchange__backgroun{
+    position: absolute;
+    width: 514.93px;
+    height: 586px;
+    right: 0;
+}
+span{
+    padding-left: 30px;
+}
